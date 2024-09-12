@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #024d8b;
+    position: fixed;
+    width: 100%;
+    justify-content: flex-end;
+
+    /* text-decoration-color: rgb(17, 2, 2); */
+    font-size: 20px;
+}
+
+.nav-item a {
+    color: rgb(255, 255, 255);
+}
+
+.nav-item {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-decoration: none;
+
+
+}
+
+.img-container {
+    width: 50%;
+}
+
+.logo {
+    height: 100px;
+    padding-bottom: 0px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    background-color: #8ED0E8;
+    width: 50%;
+    /* position: relative; */
+}
+
+.hero-text {
+    text-align: right;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 15rem;
+    font-weight: 100px;
+    color: white;
+
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text h1 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 5rem;
+    color: #005192;
+}
+
+.hero-text p {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 5rem;
+    color: #005192;
+    margin-top: 2rem;
+}
+
+.shop-button {
+    background-color: #005192;
+    border-radius: 15px;
+    border: none;
+    /* padding-left: 1rem;  */
+    width: 8rem;
+    height: 50px;
+    align-content: flex-start;
+    margin-left: -23rem;
+
+}
+
+.text-white {
+    color: white;
+    text-decoration: none;
+}
+
+.grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+
+}
+
+.fa-truck-fast {
+    background-color: #005192;
+    width: 40px;
+}
+
+.fa-solid fa-rotate-left {
+    background-color: #005192;
+
+}
+
+.img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+
+}
+
+.img-grid1 {
+    width: 100%;
+
+}
+
+/* .header-icons {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.featured-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    margin-top: 90px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+}
+
+.section-head {
+    text-align: center;
+    /* margin-top: 5rem; */ 
+}
+
+    .featured-sec { 
+        margin-top: -400px;
+
+    }
+
+.featured-img {
+    width: 100%;
+    margin-top: 0;
+}
+
+.featured h1 {
+    align-content: center;
+}
+
+.featured-text {
+    background-color: #005192;
+    padding: 50px;
+    position: absolute;
+    bottom: 4px;
+
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 100px;
+    left: 16px;
+}
+
+.sale-img {
+    width: 500px;
+    margin-top: 5rem;
+}
+
+.big-sale-text {
+    margin-top: 90px;
+    /* margin-left: 90px;  */
+    text-align: center;
+}
+
+.cat {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.sale-section {
+    margin-top: 5rem;
+    /* text-align: center;  */
+
+}
+
+.sales-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20%;
+
+}
+
+.paragraph {
+    margin-top: 1rem;
+    width: 50%;
+    margin-left: 5rem;
+} 
+
+.men{
+   display: flex;
+   /* background-color: #8ED0E8;  */
+   /* padding-top: 150px;  */
+
+  
+} 
+
+.ch{
+    
+} 
+
+.wm{
+ 
+    
+}
+
+.shop-button {
+    background-color: #005192;
+    border-radius: 15px;
+    border: none;
+    padding-left: -1rem;
+    width: 8rem;
+    height: 50px;
+    align-items: left;
+    margin-left: 5rem;
+    margin-top: 20px;
+    text-decoration-color: white;
+
+}
+
+.discount-text {
+    /* text-align: left; 
+    justify-content: space-around; */
+    margin-left: 5rem;
+    margin-top: 5rem; 
+    color: #005192;
+} 
+
+.footer-section{
+    /* margin-top: 5rem;
+    margin-left: 5rem;  */
+    background-color: rgb(224, 221, 221); 
+    height: 100vh;
+} 
+
+.footer-nav{
+    margin-left: 5rem ; 
+    margin-top: 5rem;
+}
+
+.nav-text{
+    margin-left: 5rem; 
+    margin-top: 20px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
